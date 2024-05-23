@@ -8,6 +8,14 @@ The dataset is sourced from Kaggle and can be found at (https://www.kaggle.com/d
 ## Data Processing
 Upon downloading the dataset, it is received in a zip file format. Python is utilized to extract the CSV file from this zip file. The Pandas library is then employed to explore and manipulate the dataset.
 
+## Libraries Used
+The project utilizes the following Python libraries:
+
+Pandas: For data manipulation and analysis.
+ZipFile: For extracting files from the zip archive.
+sqlalchemy: For connecting to SQL Server and executing SQL queries.
+Kaggle: to import the data from kaggle through api
+
 ## Loading Data to SQL Server
 The dataset is loaded into an SQL Server database from Python. Several operations are performed on the SQL Server:
 
